@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+  
+</head>
+
+<body>
+  <main class="main-container">
+    <section class="card-container">
+      <div class="icon-star">
+        <img src="./images/icon-star.svg" alt="icon-star">
+      </div>
+      <p id="result" class="result"></p>
+      <h1 id="heading">How did we do?</h1>
+      <p id="paragraph">Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+      <div class="rateing-number">
+        <div class="number-button"><input type="radio" name="number" id="numberButton1" value="1"><label for="numberButton1">1</label></input></div>
+        <div class="number-button"><input type="radio" name="number" id="numberButton2" value="2"><label for="numberButton2">2</label></input></div>
+        <div class="number-button"><input type="radio" name="number" id="numberButton3" value="3"><label for="numberButton3">3</label></input></div>
+        <div class="number-button"><input type="radio" name="number" id="numberButton4" value="4"><label for="numberButton4">4</label></input></div>
+        <div class="number-button"><input type="radio" name="number" id="numberButton5" value="5"><label for="numberButton5">5</label></input></div>
+      </div>
+      <button class="submit-button" id="submitButton">Submit</button>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/somu-code" target="_blank">Somnath Golui</a>.
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
